@@ -314,6 +314,7 @@ augroup vimrc-make-cmake
   autocmd BufNewFile,BufRead CMakeLists.txt setlocal filetype=cmake
 augroup END
 
+"" Make vim read file changes automatically (e.g. when new v is pulled)
 set autoread
 
 "*****************************************************************************
