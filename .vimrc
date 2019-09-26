@@ -154,7 +154,7 @@ let g:session_command_aliases = 1
 "*****************************************************************************
 syntax on
 set ruler
-set number
+set number relativenumber
 
 let no_buffers_menu=1
 "" silent! colorscheme molokai
